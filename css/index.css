@@ -1,0 +1,18 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-nav{
+    margin-right:1%; /* Or change it as your needs */
+}
+
+.btn-social{
+    font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-continer{
+        align-items: center;
+        
+    }
+  }
