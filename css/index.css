@@ -15,38 +15,18 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar-continer{
-        align-items: center;
-    }
 
-    .navbar-soicial{
-        visibility: collapse;
-    }
-    .navbar-soicial{
-        height: 0px;
-    }
+.collapse-btn{
+    align-content: flex-end;
+    text-align: end;
+}
 
-    .navbar-soicial-mobile{
-        text-align-last: right;
-        margin-right: 5%;
-    }
-
-    .bg-light{
-        padding-bottom: 0px;
-    }
-    
+.collapse-btn {
+    display: none;
   }
 
-  .navbar-soicial-mobile{
-    visibility: collapse;
-  }
-  @media only screen and (min-width: 601px) {
-    .navbar-soicial-mobile{
-        visibility: hidden;
-        height: 0px;
-        
-    }
-
-    
-  }
+@media only screen and (max-width: 768px) {
+    .collapse-btn {
+        display: inherit;
+    } 
+}
