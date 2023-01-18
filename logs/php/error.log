@@ -41,3 +41,99 @@
 [18-Jan-2023 04:42:08 UTC] PHP Warning:  copy(C:/Users/shant/OneDrive/Workspace/Wordpress-Local/shantanu-khond/wp-json/wp/v2/categories/4/index.html): Failed to open stream: No such file or directory in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
 [18-Jan-2023 04:42:08 UTC] PHP Warning:  copy(C:/Users/shant/OneDrive/Workspace/Wordpress-Local/shantanu-khond/wp-json/wp/v2/tags/5/index.html): Failed to open stream: No such file or directory in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
 [18-Jan-2023 04:42:08 UTC] PHP Warning:  copy(C:/Users/shant/OneDrive/Workspace/Wordpress-Local/shantanu-khond/wp-json/wp/v2/tags/6/index.html): Failed to open stream: No such file or directory in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[18-Jan-2023 04:48:52 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:48:52 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:48:52 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:48:52 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\formatting.php on line 1098
+[18-Jan-2023 04:50:09 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:50:09 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:50:09 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:50:09 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\formatting.php on line 1098
+[18-Jan-2023 04:51:32 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:51:32 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:51:32 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 04:51:32 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\formatting.php on line 1098
+[18-Jan-2023 04:57:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('menu-image/menu...')
+#9 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(58): activate_plugin('menu-image/menu...', 'http://shantanu...', false)
+#10 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 04:57:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('menu-image/menu...')
+#9 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 04:57:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('menu-image/menu...')
+#9 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 05:00:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('menu-image/menu...')
+#9 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(58): activate_plugin('menu-image/menu...', 'http://shantanu...', false)
+#10 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 05:00:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('menu-image/menu...')
+#9 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 05:00:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php:4061
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(3964): Freemius->ping()
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(250): fs_dynamic_init(Array)
+#5 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(104): WP_Menu_Image->mi_fs()
+#6 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\menu-image.php(2011): WP_Menu_Image->init_menu_image()
+#7 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\includes\plugin.php(2314): include_once('C:\\Users\\shant\\...')
+#8 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('menu-image/menu...')
+#9 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-content\plugins\menu-image\freemius\includes\class-freemius.php on line 4061
+[18-Jan-2023 07:26:49 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 07:26:49 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 07:26:49 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\general-template.php on line 5153
+[18-Jan-2023 07:26:49 UTC] PHP Warning:  Array to string conversion in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\shantanu-khond\app\public\wp-includes\formatting.php on line 1098
