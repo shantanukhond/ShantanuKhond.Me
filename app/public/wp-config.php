@@ -50,7 +50,6 @@ define( 'DB_COLLATE', '' );
  * @since 2.6.0
  */
 
-
 /**#@-*/
 
 /**
@@ -61,10 +60,7 @@ define( 'DB_COLLATE', '' );
  */
 $table_prefix = 'wp_';
 
-
 /* Add any custom values between this line and the "stop editing" line. */
-
-
 
 /**
  * For developers: WordPress debugging mode.

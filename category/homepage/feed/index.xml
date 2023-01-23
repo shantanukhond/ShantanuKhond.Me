@@ -9,7 +9,7 @@
 
 <channel>
 	<title>HomePage &#8211; Shantanu Khond</title>
-	<atom:link href="https://www.shantanukhond.me/category/homepage/feed/?simply_static_page=458" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.shantanukhond.me/category/homepage/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.shantanukhond.me/</link>
 	<description></description>
 	<lastBuildDate>Sun, 15 Jan 2023 14:11:20 +0000</lastBuildDate>
