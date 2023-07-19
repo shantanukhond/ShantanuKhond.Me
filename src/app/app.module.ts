@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { MediumWidgetModule } from 'ngx-medium-widget';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -40,7 +39,6 @@ import { MatIconModule } from '@angular/material/icon';
     MatIconModule,
     AppRoutingModule,
     FontAwesomeModule,
-    MediumWidgetModule,
     HttpClientModule
   ],
   bootstrap: [AppComponent]

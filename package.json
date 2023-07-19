@@ -58,9 +58,9 @@
     "jquery": "^3.5.1",
     "marked": "^0.8.2",
     "materialize-css": "^1.0.0-rc.2",
+    "nan": "^2.17.0",
     "ng2-animate-on-scroll": "^2.0.0",
     "ngx-bootstrap": "^5.6.1",
-    "ngx-medium-widget": "^1.0.5",
     "ngx-socket-io": "^3.0.1",
     "ngx-spinner": "^7.2.0",
     "node-fetch": "^2.6.0",
@@ -69,6 +69,7 @@
     "pg": "^7.18.2",
     "pusher-angular": "^1.0.0",
     "rxjs": "^6.0.0",
+    "windows-build-tools": "^4.0.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
