@@ -1,4 +1,4 @@
-ng build --prd
+ng build --prod
 Copy-Item .\docs\index.html .\docs\resume.html
 Copy-Item  .\CNAME .\docs\CNAME
 git add . 
