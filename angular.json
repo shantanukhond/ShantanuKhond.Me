@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "data-science-portfolio-template"
+  "defaultProject": "data-science-portfolio-template",
+  "cli": {
+    "analytics": false
+  }
 }

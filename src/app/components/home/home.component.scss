@@ -162,7 +162,7 @@ svg.jumbobar {
 
 
   .svg-wrapper-me {
-    height: 600px;
+    //height: 600px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -178,7 +178,7 @@ svg.jumbobar {
     }
 
     @include lgdevice-alt {
-      height: 500px;
+      //height: 500px;
     }
 
     .aboutme-context {
@@ -193,7 +193,7 @@ svg.jumbobar {
       line-height: 1.55em;
 
       .highlight {
-        background-color: #eee;
+        //background-color: #eee;
         padding: 0.1em;
         color: $Interaction-2-hex;
       }
@@ -263,7 +263,7 @@ svg.jumbobar {
       }
 
       .highlight {
-        background-color: #eee;
+        //background-color: #eee;
         padding: 0.1em
       }
     }
@@ -397,7 +397,7 @@ svg.jumbobar {
 
 .project_one {
   // project photo 1 -- feel free to change
-  background: url('../../../assets/sample1.jpg') center center no-repeat;
+  background: url('../../../assets/podlabs5.jpg') center center no-repeat;
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -427,7 +427,7 @@ svg.jumbobar {
 
 .project_two {
   // project photo 2 -- feel free to change
-  background: url('../../../assets/sample2.jpg') center center no-repeat;
+  background: url('../../../assets/facecaf.jpg') center center no-repeat;
   background-size: cover;
   min-height: 350px;
   min-width: 100%;
@@ -452,7 +452,7 @@ svg.jumbobar {
 
 .project_three {
   // project photo 3 -- feel free to change
-  background: url('../../../assets/sample3.jpg') center center no-repeat;
+  background: url('../../../assets/data_warehousing_helthcare.jpg') center center no-repeat;
   background-size: cover;
   min-height: 400px;
   min-width: 100%;
@@ -492,7 +492,7 @@ svg.jumbobar {
 
 .project_four {
   // project photo four -- feel free to change
-  background: url('../../../assets/sample4.jpg') center center no-repeat;
+  background: url('../../../assets/retaildwh.jpg') center center no-repeat;
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -517,7 +517,7 @@ svg.jumbobar {
 
 .project_five {
   // project photo 5 -- feel free to change
-  background: url('../../../assets/sample5.jpg') center center no-repeat;
+  background: url('../../../assets/learning.jpg') center center no-repeat;
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -610,7 +610,7 @@ svg.jumbobar {
   padding-bottom: 4em;
 
   .section4-header {
-    max-width: 450px;
+    //max-width: 450px;
     align-items: center;
     display: flex;
     justify-content: center;

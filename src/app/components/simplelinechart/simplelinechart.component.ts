@@ -120,7 +120,7 @@ export class SimplelinechartComponent implements OnInit {
                       },
                       {
                         note: {
-                          title: 'Section Four'
+                          title: 'My World'
                         },
                         type: d3annotate.annotationCalloutCircle,
                         subject: {
